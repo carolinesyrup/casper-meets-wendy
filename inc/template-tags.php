@@ -57,7 +57,7 @@ function casper_meets_wendy_entry_footer() {
 	edit_post_link(
 		sprintf(
 			/* translators: %s: Name of current post */
-			esc_html__( '| Edit %s', 'casper-meets-wendy' ),
+			esc_html__( ' Edit %s', 'casper-meets-wendy' ),
 			the_title( '<span class="screen-reader-text">"', '"</span>', false )
 		),
 		'<span class="edit-link">',
